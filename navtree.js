@@ -3,7 +3,7 @@ var NAVTREE =
   [ "balde", "index.html", [
     [ "Welcome to balde's documentation!", "index.html", null ],
     [ "Basic concepts", "concepts.html", null ],
-    [ "Hello World! The anatomy of a simple application", "hello.html", null ],
+    [ "Getting started", "getting-started.html", null ],
     [ "Data Structures", null, [
       [ "Data Structures", "annotated.html", "annotated" ],
       [ "Data Structure Index", "classes.html", null ],

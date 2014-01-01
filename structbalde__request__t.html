@@ -118,6 +118,9 @@ $(document).ready(function(){initNavTree('structbalde__request__t.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
+<tr class="memitem:aacaaf813f34c9012b5136a3f54904f1f"><td class="memItemLeft" align="right" valign="top">GHashTable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbalde__request__t.html#aacaaf813f34c9012b5136a3f54904f1f">args</a></td></tr>
+<tr class="memdesc:aacaaf813f34c9012b5136a3f54904f1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A GLib hash table that stores the query string parameters.  <a href="#aacaaf813f34c9012b5136a3f54904f1f">More...</a><br/></td></tr>
+<tr class="separator:aacaaf813f34c9012b5136a3f54904f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dd4b0ba9d2bcf82db9786201c25f067"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0dd4b0ba9d2bcf82db9786201c25f067"></a>
 GHashTable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbalde__request__t.html#a0dd4b0ba9d2bcf82db9786201c25f067">view_args</a></td></tr>
 <tr class="memdesc:a0dd4b0ba9d2bcf82db9786201c25f067"><td class="mdescLeft">&#160;</td><td class="mdescRight">A GLib hash table that stores the arguments parsed from the request path. <br/></td></tr>
@@ -137,6 +140,21 @@ gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 <div class="textblock"><p>balde request context </p>
 <p>This struct stores everything related to the request context. It stays loaded in memory during all the request life time, and is initialized automatically by the application main loop. </p>
 </div><h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="aacaaf813f34c9012b5136a3f54904f1f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GHashTable* args</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A GLib hash table that stores the query string parameters. </p>
+<p>Do not touch it manually, use the <a class="el" href="wrappers_8h.html#acb973926424c1e4d3068f1ce4f4d8d51" title="Gets a query string argument. ">balde_request_get_arg()</a> function instead. </p>
+
+</div>
+</div>
 <a class="anchor" id="ad280d7902c00b5e72399e0fb4d303fb4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -176,7 +194,7 @@ gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structbalde__request__t.html">balde_request_t</a></li>
-    <li class="footer">Generated on Wed Jan 1 2014 01:32:39 for balde by
+    <li class="footer">Generated on Wed Jan 1 2014 04:06:35 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

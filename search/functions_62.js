@@ -7,6 +7,7 @@ var searchData=
   ['balde_5fapp_5finit',['balde_app_init',['../app_8h.html#ad9173f43f1febcb85b67b9ffc03b9e78',1,'app.c']]],
   ['balde_5fapp_5frun',['balde_app_run',['../app_8h.html#a7ee7602303231372ce0a033c652e34dc',1,'app.c']]],
   ['balde_5fmake_5fresponse',['balde_make_response',['../wrappers_8h.html#af3c56af8e1316c0894bbcb8056c7d5a8',1,'wrappers.c']]],
+  ['balde_5frequest_5fget_5farg',['balde_request_get_arg',['../wrappers_8h.html#acb973926424c1e4d3068f1ce4f4d8d51',1,'wrappers.c']]],
   ['balde_5frequest_5fget_5fheader',['balde_request_get_header',['../wrappers_8h.html#a3e6b92b8e62961ebc7873499953c273a',1,'wrappers.c']]],
   ['balde_5fresponse_5fappend_5fbody',['balde_response_append_body',['../wrappers_8h.html#aa309931be43c2190a10482b2e6cdebb0',1,'wrappers.c']]],
   ['balde_5fresponse_5fget_5ftmpl_5fvar',['balde_response_get_tmpl_var',['../wrappers_8h.html#a1ad0207d4c65a3cfbbf53b2944941584',1,'wrappers.c']]],

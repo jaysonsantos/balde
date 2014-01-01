@@ -7,6 +7,7 @@ var routing_8h =
       [ "BALDE_HTTP_HEAD", "routing_8h.html#abb1d89de1a2735a97ebcd072bc23a245a11ea5608e250ac09196a7acdc27dc8ef", null ],
       [ "BALDE_HTTP_POST", "routing_8h.html#abb1d89de1a2735a97ebcd072bc23a245a279a8402886d06b32b55542abbf4c870", null ],
       [ "BALDE_HTTP_PUT", "routing_8h.html#abb1d89de1a2735a97ebcd072bc23a245ad39bd63d2d5ac921f98d19b5da57a4c5", null ],
+      [ "BALDE_HTTP_PATCH", "routing_8h.html#abb1d89de1a2735a97ebcd072bc23a245a381376ac19bed38deaa3447748b53e11", null ],
       [ "BALDE_HTTP_DELETE", "routing_8h.html#abb1d89de1a2735a97ebcd072bc23a245a299f8b469372434fd63dae305374bf35", null ]
     ] ]
 ];

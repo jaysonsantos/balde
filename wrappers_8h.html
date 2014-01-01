@@ -150,6 +150,9 @@ Functions</h2></td></tr>
 <tr class="memitem:acb973926424c1e4d3068f1ce4f4d8d51"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#acb973926424c1e4d3068f1ce4f4d8d51">balde_request_get_arg</a> (<a class="el" href="structbalde__request__t.html">balde_request_t</a> *request, gchar *name)</td></tr>
 <tr class="memdesc:acb973926424c1e4d3068f1ce4f4d8d51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a query string argument.  <a href="#acb973926424c1e4d3068f1ce4f4d8d51">More...</a><br/></td></tr>
 <tr class="separator:acb973926424c1e4d3068f1ce4f4d8d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2f3ad91f52decff41d8114e28a14c91"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#ad2f3ad91f52decff41d8114e28a14c91">balde_request_get_form</a> (<a class="el" href="structbalde__request__t.html">balde_request_t</a> *request, gchar *name)</td></tr>
+<tr class="memdesc:ad2f3ad91f52decff41d8114e28a14c91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a form input value.  <a href="#ad2f3ad91f52decff41d8114e28a14c91">More...</a><br/></td></tr>
+<tr class="separator:ad2f3ad91f52decff41d8114e28a14c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17b15b0f065ba14f1a6a757ef450750e"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#a17b15b0f065ba14f1a6a757ef450750e">balde_request_get_view_arg</a> (<a class="el" href="structbalde__request__t.html">balde_request_t</a> *request, gchar *name)</td></tr>
 <tr class="memdesc:a17b15b0f065ba14f1a6a757ef450750e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a view argument.  <a href="#a17b15b0f065ba14f1a6a757ef450750e">More...</a><br/></td></tr>
 <tr class="separator:a17b15b0f065ba14f1a6a757ef450750e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,6 +205,35 @@ Functions</h2></td></tr>
 
 <p>Gets a query string argument. </p>
 <p>The argument name <em>IS</em> case-sensitive. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad2f3ad91f52decff41d8114e28a14c91"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gchar* balde_request_get_form </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structbalde__request__t.html">balde_request_t</a> *&#160;</td>
+          <td class="paramname"><em>request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gchar *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a form input value. </p>
+<p>The form input name <em>IS</em> case-sensitive, and the function will always return NULL for HTTP methods that does not accepts request body. </p>
 
 </div>
 </div>
@@ -396,7 +428,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_0376fae09af503611eb3e1812ba4fe9e.html">include</a></li><li class="navelem"><a class="el" href="dir_43a87a830600933ce265335a341bd7b8.html">balde</a></li><li class="navelem"><a class="el" href="wrappers_8h.html">wrappers.h</a></li>
-    <li class="footer">Generated on Wed Jan 1 2014 04:29:05 for balde by
+    <li class="footer">Generated on Wed Jan 1 2014 18:24:34 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

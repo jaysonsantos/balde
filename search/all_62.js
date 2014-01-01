@@ -11,6 +11,7 @@ var searchData=
   ['balde_5fhttp_5fmethod_5ft',['balde_http_method_t',['../routing_8h.html#abb1d89de1a2735a97ebcd072bc23a245',1,'routing.h']]],
   ['balde_5fmake_5fresponse',['balde_make_response',['../wrappers_8h.html#af3c56af8e1316c0894bbcb8056c7d5a8',1,'wrappers.c']]],
   ['balde_5frequest_5fget_5farg',['balde_request_get_arg',['../wrappers_8h.html#acb973926424c1e4d3068f1ce4f4d8d51',1,'wrappers.c']]],
+  ['balde_5frequest_5fget_5fform',['balde_request_get_form',['../wrappers_8h.html#ad2f3ad91f52decff41d8114e28a14c91',1,'wrappers.c']]],
   ['balde_5frequest_5fget_5fheader',['balde_request_get_header',['../wrappers_8h.html#a3e6b92b8e62961ebc7873499953c273a',1,'wrappers.c']]],
   ['balde_5frequest_5fget_5fview_5farg',['balde_request_get_view_arg',['../wrappers_8h.html#a17b15b0f065ba14f1a6a757ef450750e',1,'wrappers.c']]],
   ['balde_5frequest_5ft',['balde_request_t',['../structbalde__request__t.html',1,'']]],

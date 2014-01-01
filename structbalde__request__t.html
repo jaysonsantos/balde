@@ -121,6 +121,12 @@ Data Fields</h2></td></tr>
 <tr class="memitem:aacaaf813f34c9012b5136a3f54904f1f"><td class="memItemLeft" align="right" valign="top">GHashTable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbalde__request__t.html#aacaaf813f34c9012b5136a3f54904f1f">args</a></td></tr>
 <tr class="memdesc:aacaaf813f34c9012b5136a3f54904f1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A GLib hash table that stores the query string parameters.  <a href="#aacaaf813f34c9012b5136a3f54904f1f">More...</a><br/></td></tr>
 <tr class="separator:aacaaf813f34c9012b5136a3f54904f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a857b634df79fbc722a18155176dfc6f0"><td class="memItemLeft" align="right" valign="top">GHashTable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbalde__request__t.html#a857b634df79fbc722a18155176dfc6f0">form</a></td></tr>
+<tr class="memdesc:a857b634df79fbc722a18155176dfc6f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">A GLib hash table that stores the parsed form data.  <a href="#a857b634df79fbc722a18155176dfc6f0">More...</a><br/></td></tr>
+<tr class="separator:a857b634df79fbc722a18155176dfc6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a378ea2e0f96980ae7c716e9c2aab3b23"><td class="memItemLeft" align="right" valign="top">const gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbalde__request__t.html#a378ea2e0f96980ae7c716e9c2aab3b23">stream</a></td></tr>
+<tr class="memdesc:a378ea2e0f96980ae7c716e9c2aab3b23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raw request body, if provided by client.  <a href="#a378ea2e0f96980ae7c716e9c2aab3b23">More...</a><br/></td></tr>
+<tr class="separator:a378ea2e0f96980ae7c716e9c2aab3b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dd4b0ba9d2bcf82db9786201c25f067"><td class="memItemLeft" align="right" valign="top">GHashTable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbalde__request__t.html#a0dd4b0ba9d2bcf82db9786201c25f067">view_args</a></td></tr>
 <tr class="memdesc:a0dd4b0ba9d2bcf82db9786201c25f067"><td class="mdescLeft">&#160;</td><td class="mdescRight">A GLib hash table that stores the arguments parsed from the request path.  <a href="#a0dd4b0ba9d2bcf82db9786201c25f067">More...</a><br/></td></tr>
 <tr class="separator:a0dd4b0ba9d2bcf82db9786201c25f067"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,6 +160,21 @@ gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 
 </div>
 </div>
+<a class="anchor" id="a857b634df79fbc722a18155176dfc6f0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GHashTable* form</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A GLib hash table that stores the parsed form data. </p>
+<p>Do not touch it manually, use the <a class="el" href="wrappers_8h.html#ad2f3ad91f52decff41d8114e28a14c91" title="Gets a form input value. ">balde_request_get_form()</a> function instead. </p>
+
+</div>
+</div>
 <a class="anchor" id="ad280d7902c00b5e72399e0fb4d303fb4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -184,6 +205,21 @@ gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 
 </div>
 </div>
+<a class="anchor" id="a378ea2e0f96980ae7c716e9c2aab3b23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const gchar* stream</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Raw request body, if provided by client. </p>
+<p>You can use it, but not change its value. </p>
+
+</div>
+</div>
 <a class="anchor" id="a0dd4b0ba9d2bcf82db9786201c25f067"></a>
 <div class="memitem">
 <div class="memproto">
@@ -208,7 +244,7 @@ gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structbalde__request__t.html">balde_request_t</a></li>
-    <li class="footer">Generated on Wed Jan 1 2014 04:29:05 for balde by
+    <li class="footer">Generated on Wed Jan 1 2014 18:24:34 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

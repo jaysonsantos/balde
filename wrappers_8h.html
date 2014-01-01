@@ -138,6 +138,12 @@ Functions</h2></td></tr>
 <tr class="memitem:af3c56af8e1316c0894bbcb8056c7d5a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbalde__response__t.html">balde_response_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#af3c56af8e1316c0894bbcb8056c7d5a8">balde_make_response</a> (gchar *content)</td></tr>
 <tr class="memdesc:af3c56af8e1316c0894bbcb8056c7d5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a response context.  <a href="#af3c56af8e1316c0894bbcb8056c7d5a8">More...</a><br/></td></tr>
 <tr class="separator:af3c56af8e1316c0894bbcb8056c7d5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec46014e8851c929d860148102ab85e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#aec46014e8851c929d860148102ab85e0">balde_response_set_tmpl_var</a> (<a class="el" href="structbalde__response__t.html">balde_response_t</a> *response, gchar *name, gchar *value)</td></tr>
+<tr class="memdesc:aec46014e8851c929d860148102ab85e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a template variable.  <a href="#aec46014e8851c929d860148102ab85e0">More...</a><br/></td></tr>
+<tr class="separator:aec46014e8851c929d860148102ab85e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad0207d4c65a3cfbbf53b2944941584"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#a1ad0207d4c65a3cfbbf53b2944941584">balde_response_get_tmpl_var</a> (<a class="el" href="structbalde__response__t.html">balde_response_t</a> *response, gchar *name)</td></tr>
+<tr class="memdesc:a1ad0207d4c65a3cfbbf53b2944941584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a template variable.  <a href="#a1ad0207d4c65a3cfbbf53b2944941584">More...</a><br/></td></tr>
+<tr class="separator:a1ad0207d4c65a3cfbbf53b2944941584"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e6b92b8e62961ebc7873499953c273a"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#a3e6b92b8e62961ebc7873499953c273a">balde_request_get_header</a> (<a class="el" href="structbalde__request__t.html">balde_request_t</a> *request, gchar *name)</td></tr>
 <tr class="memdesc:a3e6b92b8e62961ebc7873499953c273a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a request header.  <a href="#a3e6b92b8e62961ebc7873499953c273a">More...</a><br/></td></tr>
 <tr class="separator:a3e6b92b8e62961ebc7873499953c273a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,6 +227,35 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1ad0207d4c65a3cfbbf53b2944941584"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gchar* balde_response_get_tmpl_var </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structbalde__response__t.html">balde_response_t</a> *&#160;</td>
+          <td class="paramname"><em>response</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gchar *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a template variable. </p>
+<p>The template variable name <em>IS</em> case-sensitive. </p>
+
+</div>
+</div>
 <a class="anchor" id="a08594f712094af30909013827ac26900"></a>
 <div class="memitem">
 <div class="memproto">
@@ -256,13 +291,48 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aec46014e8851c929d860148102ab85e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void balde_response_set_tmpl_var </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structbalde__response__t.html">balde_response_t</a> *&#160;</td>
+          <td class="paramname"><em>response</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gchar *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets a template variable. </p>
+<p>The template variable name <em>IS</em> case-sensitive. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_0376fae09af503611eb3e1812ba4fe9e.html">include</a></li><li class="navelem"><a class="el" href="dir_43a87a830600933ce265335a341bd7b8.html">balde</a></li><li class="navelem"><a class="el" href="wrappers_8h.html">wrappers.h</a></li>
-    <li class="footer">Generated on Tue Dec 31 2013 14:15:39 for balde by
+    <li class="footer">Generated on Wed Jan 1 2014 01:32:39 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

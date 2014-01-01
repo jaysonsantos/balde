@@ -125,6 +125,9 @@ guint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="str
 <tr class="memitem:ad280d7902c00b5e72399e0fb4d303fb4"><td class="memItemLeft" align="right" valign="top">GHashTable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbalde__response__t.html#ad280d7902c00b5e72399e0fb4d303fb4">headers</a></td></tr>
 <tr class="memdesc:ad280d7902c00b5e72399e0fb4d303fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">A GLib hash table that stores the response headers.  <a href="#ad280d7902c00b5e72399e0fb4d303fb4">More...</a><br/></td></tr>
 <tr class="separator:ad280d7902c00b5e72399e0fb4d303fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70cd86c84a04b201e983f7b0299f8542"><td class="memItemLeft" align="right" valign="top">GHashTable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbalde__response__t.html#a70cd86c84a04b201e983f7b0299f8542">template_ctx</a></td></tr>
+<tr class="memdesc:a70cd86c84a04b201e983f7b0299f8542"><td class="mdescLeft">&#160;</td><td class="mdescRight">A GLib hash table that stores the template variables.  <a href="#a70cd86c84a04b201e983f7b0299f8542">More...</a><br/></td></tr>
+<tr class="separator:a70cd86c84a04b201e983f7b0299f8542"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8e033d0a5fbdfa56ab1d8679b645e15"><td class="memItemLeft" align="right" valign="top">GString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbalde__response__t.html#ad8e033d0a5fbdfa56ab1d8679b645e15">body</a></td></tr>
 <tr class="memdesc:ad8e033d0a5fbdfa56ab1d8679b645e15"><td class="mdescLeft">&#160;</td><td class="mdescRight">A GLib string that stores the response body.  <a href="#ad8e033d0a5fbdfa56ab1d8679b645e15">More...</a><br/></td></tr>
 <tr class="separator:ad8e033d0a5fbdfa56ab1d8679b645e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,6 +166,21 @@ guint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="str
 
 </div>
 </div>
+<a class="anchor" id="a70cd86c84a04b201e983f7b0299f8542"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GHashTable* template_ctx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A GLib hash table that stores the template variables. </p>
+<p>Do not touch it manually, use the <a class="el" href="wrappers_8h.html#aec46014e8851c929d860148102ab85e0" title="Sets a template variable. ">balde_response_set_tmpl_var()</a> and <a class="el" href="wrappers_8h.html#a1ad0207d4c65a3cfbbf53b2944941584" title="Gets a template variable. ">balde_response_get_tmpl_var()</a> functions instead. </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>include/balde/<a class="el" href="wrappers_8h_source.html">wrappers.h</a></li>
 </ul>
@@ -172,7 +190,7 @@ guint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="str
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structbalde__response__t.html">balde_response_t</a></li>
-    <li class="footer">Generated on Tue Dec 31 2013 14:15:39 for balde by
+    <li class="footer">Generated on Wed Jan 1 2014 01:32:39 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

@@ -160,18 +160,18 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae7a12b200f99ed7121239e9df06969c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exceptions_8h.html#ae7a12b200f99ed7121239e9df06969c7">balde_abort_set_error</a> (<a class="el" href="structbalde__app__t.html">balde_app_t</a> *app, <a class="el" href="exceptions_8h.html#ab746277b4653b7d7431acb0c40ac1844">balde_http_exception_code_t</a> code)</td></tr>
-<tr class="memdesc:ae7a12b200f99ed7121239e9df06969c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets application error with an HTTP status code.  <a href="#ae7a12b200f99ed7121239e9df06969c7">More...</a><br/></td></tr>
-<tr class="separator:ae7a12b200f99ed7121239e9df06969c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6156f5eaa56a9fb4bfb1e18a1068854"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbalde__response__t.html">balde_response_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exceptions_8h.html#ae6156f5eaa56a9fb4bfb1e18a1068854">balde_abort</a> (<a class="el" href="structbalde__app__t.html">balde_app_t</a> *app, <a class="el" href="exceptions_8h.html#ab746277b4653b7d7431acb0c40ac1844">balde_http_exception_code_t</a> code)</td></tr>
-<tr class="memdesc:ae6156f5eaa56a9fb4bfb1e18a1068854"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a response context that represents an HTTP status code.  <a href="#ae6156f5eaa56a9fb4bfb1e18a1068854">More...</a><br/></td></tr>
-<tr class="separator:ae6156f5eaa56a9fb4bfb1e18a1068854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf4f2b6ce882eeae370ab6a5e0e89131"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exceptions_8h.html#abf4f2b6ce882eeae370ab6a5e0e89131">balde_abort_set_error</a> (<a class="el" href="structbalde__app__t.html">balde_app_t</a> *app, const <a class="el" href="exceptions_8h.html#ab746277b4653b7d7431acb0c40ac1844">balde_http_exception_code_t</a> code)</td></tr>
+<tr class="memdesc:abf4f2b6ce882eeae370ab6a5e0e89131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets application error with an HTTP status code.  <a href="#abf4f2b6ce882eeae370ab6a5e0e89131">More...</a><br/></td></tr>
+<tr class="separator:abf4f2b6ce882eeae370ab6a5e0e89131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdd7f369a264874c5b3bbbf426cfd857"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbalde__response__t.html">balde_response_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exceptions_8h.html#afdd7f369a264874c5b3bbbf426cfd857">balde_abort</a> (<a class="el" href="structbalde__app__t.html">balde_app_t</a> *app, const <a class="el" href="exceptions_8h.html#ab746277b4653b7d7431acb0c40ac1844">balde_http_exception_code_t</a> code)</td></tr>
+<tr class="memdesc:afdd7f369a264874c5b3bbbf426cfd857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a response context that represents an HTTP status code.  <a href="#afdd7f369a264874c5b3bbbf426cfd857">More...</a><br/></td></tr>
+<tr class="separator:afdd7f369a264874c5b3bbbf426cfd857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>HTTP exceptions related definitions. </p>
 <p>balde handles HTTP status codes as if they were GLib exceptions (or "errors", following GLib naming standards). </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ae6156f5eaa56a9fb4bfb1e18a1068854"></a>
+<a class="anchor" id="afdd7f369a264874c5b3bbbf426cfd857"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -184,7 +184,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="exceptions_8h.html#ab746277b4653b7d7431acb0c40ac1844">balde_http_exception_code_t</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="exceptions_8h.html#ab746277b4653b7d7431acb0c40ac1844">balde_http_exception_code_t</a>&#160;</td>
           <td class="paramname"><em>code</em>&#160;</td>
         </tr>
         <tr>
@@ -200,7 +200,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae7a12b200f99ed7121239e9df06969c7"></a>
+<a class="anchor" id="abf4f2b6ce882eeae370ab6a5e0e89131"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -213,7 +213,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="exceptions_8h.html#ab746277b4653b7d7431acb0c40ac1844">balde_http_exception_code_t</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="exceptions_8h.html#ab746277b4653b7d7431acb0c40ac1844">balde_http_exception_code_t</a>&#160;</td>
           <td class="paramname"><em>code</em>&#160;</td>
         </tr>
         <tr>
@@ -235,7 +235,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_0376fae09af503611eb3e1812ba4fe9e.html">include</a></li><li class="navelem"><a class="el" href="dir_43a87a830600933ce265335a341bd7b8.html">balde</a></li><li class="navelem"><a class="el" href="exceptions_8h.html">exceptions.h</a></li>
-    <li class="footer">Generated on Sat Jan 11 2014 21:19:59 for balde by
+    <li class="footer">Generated on Sat Jan 11 2014 21:37:13 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

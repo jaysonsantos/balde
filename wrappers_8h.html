@@ -132,12 +132,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ad5fb729beaaea090ca9fd7e6e35c188c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#ad5fb729beaaea090ca9fd7e6e35c188c">balde_response_set_header</a> (<a class="el" href="structbalde__response__t.html">balde_response_t</a> *response, const gchar *name, const gchar *value)</td></tr>
 <tr class="memdesc:ad5fb729beaaea090ca9fd7e6e35c188c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a response header.  <a href="#ad5fb729beaaea090ca9fd7e6e35c188c">More...</a><br/></td></tr>
 <tr class="separator:ad5fb729beaaea090ca9fd7e6e35c188c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa309931be43c2190a10482b2e6cdebb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#aa309931be43c2190a10482b2e6cdebb0">balde_response_append_body</a> (<a class="el" href="structbalde__response__t.html">balde_response_t</a> *response, gchar *content)</td></tr>
-<tr class="memdesc:aa309931be43c2190a10482b2e6cdebb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a string to the response body.  <a href="#aa309931be43c2190a10482b2e6cdebb0">More...</a><br/></td></tr>
-<tr class="separator:aa309931be43c2190a10482b2e6cdebb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3c56af8e1316c0894bbcb8056c7d5a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbalde__response__t.html">balde_response_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#af3c56af8e1316c0894bbcb8056c7d5a8">balde_make_response</a> (gchar *content)</td></tr>
-<tr class="memdesc:af3c56af8e1316c0894bbcb8056c7d5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a response context.  <a href="#af3c56af8e1316c0894bbcb8056c7d5a8">More...</a><br/></td></tr>
-<tr class="separator:af3c56af8e1316c0894bbcb8056c7d5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa44e124270e47417dd66fe21fe8f52d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#aa44e124270e47417dd66fe21fe8f52d0">balde_response_append_body</a> (<a class="el" href="structbalde__response__t.html">balde_response_t</a> *response, const gchar *content)</td></tr>
+<tr class="memdesc:aa44e124270e47417dd66fe21fe8f52d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a string to the response body.  <a href="#aa44e124270e47417dd66fe21fe8f52d0">More...</a><br/></td></tr>
+<tr class="separator:aa44e124270e47417dd66fe21fe8f52d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d4ebc56221c247c04b20cba5229afe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbalde__response__t.html">balde_response_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#a80d4ebc56221c247c04b20cba5229afe">balde_make_response</a> (const gchar *content)</td></tr>
+<tr class="memdesc:a80d4ebc56221c247c04b20cba5229afe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a response context.  <a href="#a80d4ebc56221c247c04b20cba5229afe">More...</a><br/></td></tr>
+<tr class="separator:a80d4ebc56221c247c04b20cba5229afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5c197fcdbf5652ea4d459bb7506f300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#aa5c197fcdbf5652ea4d459bb7506f300">balde_response_set_tmpl_var</a> (<a class="el" href="structbalde__response__t.html">balde_response_t</a> *response, const gchar *name, const gchar *value)</td></tr>
 <tr class="memdesc:aa5c197fcdbf5652ea4d459bb7506f300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a template variable.  <a href="#aa5c197fcdbf5652ea4d459bb7506f300">More...</a><br/></td></tr>
 <tr class="separator:aa5c197fcdbf5652ea4d459bb7506f300"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,14 +160,14 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Request/Response context related definitions. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="af3c56af8e1316c0894bbcb8056c7d5a8"></a>
+<a class="anchor" id="a80d4ebc56221c247c04b20cba5229afe"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structbalde__response__t.html">balde_response_t</a>* balde_make_response </td>
           <td>(</td>
-          <td class="paramtype">gchar *&#160;</td>
+          <td class="paramtype">const gchar *&#160;</td>
           <td class="paramname"><em>content</em></td><td>)</td>
           <td></td>
         </tr>
@@ -295,7 +295,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa309931be43c2190a10482b2e6cdebb0"></a>
+<a class="anchor" id="aa44e124270e47417dd66fe21fe8f52d0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -308,7 +308,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">gchar *&#160;</td>
+          <td class="paramtype">const gchar *&#160;</td>
           <td class="paramname"><em>content</em>&#160;</td>
         </tr>
         <tr>
@@ -428,7 +428,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_0376fae09af503611eb3e1812ba4fe9e.html">include</a></li><li class="navelem"><a class="el" href="dir_43a87a830600933ce265335a341bd7b8.html">balde</a></li><li class="navelem"><a class="el" href="wrappers_8h.html">wrappers.h</a></li>
-    <li class="footer">Generated on Sat Jan 11 2014 21:19:59 for balde by
+    <li class="footer">Generated on Sat Jan 11 2014 21:37:13 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

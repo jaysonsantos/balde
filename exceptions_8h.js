@@ -27,6 +27,6 @@ var exceptions_8h =
       [ "BALDE_HTTP_BAD_GATEWAY", "exceptions_8h.html#ab746277b4653b7d7431acb0c40ac1844aa3b773b6c4779549cc11b73f3c61f5ff", null ],
       [ "BALDE_HTTP_SERVICE_UNAVAILABLE", "exceptions_8h.html#ab746277b4653b7d7431acb0c40ac1844a2ce0ecd7d93ff7fe57705ec6af34bcba", null ]
     ] ],
-    [ "balde_abort", "exceptions_8h.html#ae6156f5eaa56a9fb4bfb1e18a1068854", null ],
-    [ "balde_abort_set_error", "exceptions_8h.html#ae7a12b200f99ed7121239e9df06969c7", null ]
+    [ "balde_abort", "exceptions_8h.html#afdd7f369a264874c5b3bbbf426cfd857", null ],
+    [ "balde_abort_set_error", "exceptions_8h.html#abf4f2b6ce882eeae370ab6a5e0e89131", null ]
 ];

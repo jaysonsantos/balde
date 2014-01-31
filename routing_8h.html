@@ -119,15 +119,15 @@ $(document).ready(function(){initNavTree('routing_8h.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:abb1d89de1a2735a97ebcd072bc23a245"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="routing_8h.html#abb1d89de1a2735a97ebcd072bc23a245">balde_http_method_t</a> { <br/>
-&#160;&#160;<b>BALDE_HTTP_NONE</b> = 0x00, 
-<b>BALDE_HTTP_OPTIONS</b> = 0x01, 
-<b>BALDE_HTTP_GET</b> = 0x02, 
-<b>BALDE_HTTP_HEAD</b> = 0x04, 
+&#160;&#160;<b>BALDE_HTTP_NONE</b> = 0, 
+<b>BALDE_HTTP_OPTIONS</b> = 1 &lt;&lt; 0, 
+<b>BALDE_HTTP_GET</b> = 1 &lt;&lt; 1, 
+<b>BALDE_HTTP_HEAD</b> = 1 &lt;&lt; 2, 
 <br/>
-&#160;&#160;<b>BALDE_HTTP_POST</b> = 0x08, 
-<b>BALDE_HTTP_PUT</b> = 0x10, 
-<b>BALDE_HTTP_PATCH</b> = 0x20, 
-<b>BALDE_HTTP_DELETE</b> = 0x40
+&#160;&#160;<b>BALDE_HTTP_POST</b> = 1 &lt;&lt; 3, 
+<b>BALDE_HTTP_PUT</b> = 1 &lt;&lt; 4, 
+<b>BALDE_HTTP_PATCH</b> = 1 &lt;&lt; 5, 
+<b>BALDE_HTTP_DELETE</b> = 1 &lt;&lt; 6
 <br/>
  }</td></tr>
 <tr class="memdesc:abb1d89de1a2735a97ebcd072bc23a245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supported HTTP methods.  <a href="routing_8h.html#abb1d89de1a2735a97ebcd072bc23a245">More...</a><br/></td></tr>
@@ -157,7 +157,7 @@ Enumerations</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_0376fae09af503611eb3e1812ba4fe9e.html">include</a></li><li class="navelem"><a class="el" href="dir_43a87a830600933ce265335a341bd7b8.html">balde</a></li><li class="navelem"><a class="el" href="routing_8h.html">routing.h</a></li>
-    <li class="footer">Generated on Sun Jan 12 2014 16:24:03 for balde by
+    <li class="footer">Generated on Fri Jan 31 2014 17:44:12 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

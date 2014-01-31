@@ -5,7 +5,7 @@ var searchData=
   ['balde_5fapp_5fadd_5furl_5frule',['balde_app_add_url_rule',['../app_8h.html#a859614273e71fe0e1b24926b4818f7aa',1,'app.c']]],
   ['balde_5fapp_5ffree',['balde_app_free',['../app_8h.html#a7f70dda0b646abb68686ff3fcaf605f2',1,'app.c']]],
   ['balde_5fapp_5fget_5fconfig',['balde_app_get_config',['../app_8h.html#afef8ce40ff03ab6d49f2be5113fd6107',1,'app.c']]],
-  ['balde_5fapp_5finit',['balde_app_init',['../app_8h.html#ad9173f43f1febcb85b67b9ffc03b9e78',1,'app.c']]],
+  ['balde_5fapp_5finit',['balde_app_init',['../app_8h.html#ac0d49091a0a1c99ae88c4b7e5b1592a9',1,'app.c']]],
   ['balde_5fapp_5frun',['balde_app_run',['../app_8h.html#a7ee7602303231372ce0a033c652e34dc',1,'app.c']]],
   ['balde_5fapp_5fset_5fconfig',['balde_app_set_config',['../app_8h.html#a4bc9c22b61e61d5b8b416c092133e2e4',1,'app.c']]],
   ['balde_5fapp_5ft',['balde_app_t',['../structbalde__app__t.html',1,'']]],

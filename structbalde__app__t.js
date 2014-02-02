@@ -2,7 +2,7 @@ var structbalde__app__t =
 [
     [ "config", "structbalde__app__t.html#ab508e09b6ef625a91048f41cedebf55d", null ],
     [ "error", "structbalde__app__t.html#abc39a4bba3587c275762137dee2c3fc1", null ],
-    [ "static_resources", "structbalde__app__t.html#a8261b007b89c0ceeb7f622460ddb3c1c", null ],
+    [ "static_resources", "structbalde__app__t.html#a64b6239a497d4cff9b205a4845633183", null ],
     [ "user_data", "structbalde__app__t.html#ab750a43562d5a4d847a667c3d741ce5d", null ],
     [ "views", "structbalde__app__t.html#a36466e0c00491e0a3ac1a0d545fd2b62", null ]
 ];

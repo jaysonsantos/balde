@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.5"/>
-<title>balde: examples/resources.h Source File</title>
+<title>balde: include/balde/resources.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('resources_8h_source.html','');});
+$(document).ready(function(){initNavTree('include_2balde_2resources_8h.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -103,24 +103,98 @@ $(document).ready(function(){initNavTree('resources_8h_source.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">resources.h</div>  </div>
+<div class="title">resources.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __RESOURCE_resources_H__</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __RESOURCE_resources_H__</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;gio/gio.h&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">extern</span> GResource *resources_get_resource (<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#endif</span></div>
-</div><!-- fragment --></div><!-- contents -->
+
+<p>Static resources related definitions.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &lt;glib.h&gt;</code><br/>
+<code>#include &lt;gio/gio.h&gt;</code><br/>
+<code>#include &lt;<a class="el" href="app_8h_source.html">balde/app.h</a>&gt;</code><br/>
+</div>
+<p><a href="include_2balde_2resources_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a89374eba0f8e2566969e538dc23b023c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="include_2balde_2resources_8h.html#a89374eba0f8e2566969e538dc23b023c">balde_resources_load</a> (<a class="el" href="structbalde__app__t.html">balde_app_t</a> *app, GResource *resources)</td></tr>
+<tr class="memdesc:a89374eba0f8e2566969e538dc23b023c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load static resources.  <a href="#a89374eba0f8e2566969e538dc23b023c">More...</a><br/></td></tr>
+<tr class="separator:a89374eba0f8e2566969e538dc23b023c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6caf6b85fe6c40a4277cd43a523189f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbalde__response__t.html">balde_response_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="include_2balde_2resources_8h.html#a6caf6b85fe6c40a4277cd43a523189f5">balde_make_response_from_static_resource</a> (<a class="el" href="structbalde__app__t.html">balde_app_t</a> *app, const gchar *name)</td></tr>
+<tr class="memdesc:a6caf6b85fe6c40a4277cd43a523189f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a response context with a static resource.  <a href="#a6caf6b85fe6c40a4277cd43a523189f5">More...</a><br/></td></tr>
+<tr class="separator:a6caf6b85fe6c40a4277cd43a523189f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Static resources related definitions. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a6caf6b85fe6c40a4277cd43a523189f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structbalde__response__t.html">balde_response_t</a>* balde_make_response_from_static_resource </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structbalde__app__t.html">balde_app_t</a> *&#160;</td>
+          <td class="paramname"><em>app</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gchar *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize a response context with a static resource. </p>
+<p>The function will return a response object with the static resource content and mime type. If the resource isn't found, a 404 response will be returned. </p>
+
+</div>
+</div>
+<a class="anchor" id="a89374eba0f8e2566969e538dc23b023c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void balde_resources_load </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structbalde__app__t.html">balde_app_t</a> *&#160;</td>
+          <td class="paramname"><em>app</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GResource *&#160;</td>
+          <td class="paramname"><em>resources</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load static resources. </p>
+<p>This function loads all the resources found in a GResource object into the application context. </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_5ccd7d5da5aaf591ea99da588ea45c75.html">examples</a></li><li class="navelem"><b>resources.h</b></li>
-    <li class="footer">Generated on Fri Jan 31 2014 17:44:12 for balde by
+    <li class="navelem"><a class="el" href="dir_0376fae09af503611eb3e1812ba4fe9e.html">include</a></li><li class="navelem"><a class="el" href="dir_43a87a830600933ce265335a341bd7b8.html">balde</a></li><li class="navelem"><a class="el" href="include_2balde_2resources_8h.html">resources.h</a></li>
+    <li class="footer">Generated on Sat Feb 1 2014 22:52:38 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

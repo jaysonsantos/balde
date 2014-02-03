@@ -14,7 +14,6 @@ var searchData=
   ['balde_5fhttp_5fexception_5fcode_5ft',['balde_http_exception_code_t',['../exceptions_8h.html#ab746277b4653b7d7431acb0c40ac1844',1,'exceptions.h']]],
   ['balde_5fhttp_5fmethod_5ft',['balde_http_method_t',['../routing_8h.html#abb1d89de1a2735a97ebcd072bc23a245',1,'routing.h']]],
   ['balde_5fmake_5fresponse',['balde_make_response',['../wrappers_8h.html#a80d4ebc56221c247c04b20cba5229afe',1,'wrappers.c']]],
-  ['balde_5fmake_5fresponse_5ffrom_5fstatic_5fresource',['balde_make_response_from_static_resource',['../include_2balde_2resources_8h.html#a6caf6b85fe6c40a4277cd43a523189f5',1,'resources.c']]],
   ['balde_5frequest_5fget_5farg',['balde_request_get_arg',['../wrappers_8h.html#a1e964c6c06a3500ba283310f6b26c6c6',1,'wrappers.c']]],
   ['balde_5frequest_5fget_5fform',['balde_request_get_form',['../wrappers_8h.html#ad0970a629527b13d7a0a743d2818cbad',1,'wrappers.c']]],
   ['balde_5frequest_5fget_5fheader',['balde_request_get_header',['../wrappers_8h.html#ae2d32b038d4f196376fc942e2fce900e',1,'wrappers.c']]],

@@ -144,9 +144,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a1d39feefcfed8ad0d711a2b84ef9d967"><td class="memItemLeft" align="right" valign="top">const gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#a1d39feefcfed8ad0d711a2b84ef9d967">balde_response_get_tmpl_var</a> (<a class="el" href="structbalde__response__t.html">balde_response_t</a> *response, const gchar *name)</td></tr>
 <tr class="memdesc:a1d39feefcfed8ad0d711a2b84ef9d967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a template variable.  <a href="#a1d39feefcfed8ad0d711a2b84ef9d967">More...</a><br/></td></tr>
 <tr class="separator:a1d39feefcfed8ad0d711a2b84ef9d967"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4c543288d8e310e41d2a58e1f42544c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#ae4c543288d8e310e41d2a58e1f42544c">balde_response_set_cookie</a> (<a class="el" href="structbalde__response__t.html">balde_response_t</a> *response, const gchar *name, const gchar *value, const gint max_age, const gint expires, const gchar *path, const gchar *domain, gboolean secure)</td></tr>
-<tr class="memdesc:ae4c543288d8e310e41d2a58e1f42544c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a cookie.  <a href="#ae4c543288d8e310e41d2a58e1f42544c">More...</a><br/></td></tr>
-<tr class="separator:ae4c543288d8e310e41d2a58e1f42544c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2d1140a7b1f608ac6fde9210cba420"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#a4c2d1140a7b1f608ac6fde9210cba420">balde_response_set_cookie</a> (<a class="el" href="structbalde__response__t.html">balde_response_t</a> *response, const gchar *name, const gchar *value, const gint max_age, const gint64 expires, const gchar *path, const gchar *domain, gboolean secure)</td></tr>
+<tr class="memdesc:a4c2d1140a7b1f608ac6fde9210cba420"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a cookie.  <a href="#a4c2d1140a7b1f608ac6fde9210cba420">More...</a><br/></td></tr>
+<tr class="separator:a4c2d1140a7b1f608ac6fde9210cba420"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf42a5c81117a0a5e666bcea0ffb6664"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#acf42a5c81117a0a5e666bcea0ffb6664">balde_response_delete_cookie</a> (<a class="el" href="structbalde__response__t.html">balde_response_t</a> *response, const gchar *name, const gchar *path, const gchar *domain)</td></tr>
+<tr class="memdesc:acf42a5c81117a0a5e666bcea0ffb6664"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a cookie from client.  <a href="#acf42a5c81117a0a5e666bcea0ffb6664">More...</a><br/></td></tr>
+<tr class="separator:acf42a5c81117a0a5e666bcea0ffb6664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2d32b038d4f196376fc942e2fce900e"><td class="memItemLeft" align="right" valign="top">const gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#ae2d32b038d4f196376fc942e2fce900e">balde_request_get_header</a> (<a class="el" href="structbalde__request__t.html">balde_request_t</a> *request, const gchar *name)</td></tr>
 <tr class="memdesc:ae2d32b038d4f196376fc942e2fce900e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a request header.  <a href="#ae2d32b038d4f196376fc942e2fce900e">More...</a><br/></td></tr>
 <tr class="separator:ae2d32b038d4f196376fc942e2fce900e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -358,6 +361,47 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="acf42a5c81117a0a5e666bcea0ffb6664"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void balde_response_delete_cookie </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structbalde__response__t.html">balde_response_t</a> *&#160;</td>
+          <td class="paramname"><em>response</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gchar *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gchar *&#160;</td>
+          <td class="paramname"><em>domain</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deletes a cookie from client. </p>
+<p>The same arguments provided when setting the cookie should be provided when deleted (if required). </p>
+
+</div>
+</div>
 <a class="anchor" id="a1d39feefcfed8ad0d711a2b84ef9d967"></a>
 <div class="memitem">
 <div class="memproto">
@@ -387,7 +431,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae4c543288d8e310e41d2a58e1f42544c"></a>
+<a class="anchor" id="a4c2d1140a7b1f608ac6fde9210cba420"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -418,7 +462,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const gint&#160;</td>
+          <td class="paramtype">const gint64&#160;</td>
           <td class="paramname"><em>expires</em>, </td>
         </tr>
         <tr>
@@ -449,7 +493,7 @@ Functions</h2></td></tr>
 
 <p>Sets a cookie. </p>
 <p>Integer arguments should be set to -1 to be ignored. String arguments (excluding name and value) should be set to NULL to be ignored.</p>
-<p>The 'expires' argument isn't implemented yet. </p>
+<p>If the 'expires' argument is less than 0 and 'max_age' is provided, it will be evaluated automatically for you. </p>
 
 </div>
 </div>
@@ -529,7 +573,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6542971f2bd57e7c77232c740a1402b3.html">src</a></li><li class="navelem"><a class="el" href="dir_075d99a94c4020d0d1d7b5b27abfc10d.html">include</a></li><li class="navelem"><a class="el" href="dir_1645d025ee9f42658f3c8ce35752a258.html">balde</a></li><li class="navelem"><a class="el" href="wrappers_8h.html">wrappers.h</a></li>
-    <li class="footer">Generated on Sun Mar 9 2014 00:39:32 for balde by
+    <li class="footer">Generated on Sun Mar 9 2014 03:31:51 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

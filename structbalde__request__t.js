@@ -1,6 +1,7 @@
 var structbalde__request__t =
 [
     [ "args", "structbalde__request__t.html#aacaaf813f34c9012b5136a3f54904f1f", null ],
+    [ "cookies", "structbalde__request__t.html#af65a581028a371d08abc8f6f737f14ca", null ],
     [ "form", "structbalde__request__t.html#a857b634df79fbc722a18155176dfc6f0", null ],
     [ "headers", "structbalde__request__t.html#ad280d7902c00b5e72399e0fb4d303fb4", null ],
     [ "method", "structbalde__request__t.html#ac7bb14390fdb66a3d15f74d462692eeb", null ],

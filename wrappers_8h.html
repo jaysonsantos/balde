@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.5"/>
-<title>balde: include/balde/wrappers.h File Reference</title>
+<title>balde: src/include/balde/wrappers.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -144,6 +144,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a1d39feefcfed8ad0d711a2b84ef9d967"><td class="memItemLeft" align="right" valign="top">const gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#a1d39feefcfed8ad0d711a2b84ef9d967">balde_response_get_tmpl_var</a> (<a class="el" href="structbalde__response__t.html">balde_response_t</a> *response, const gchar *name)</td></tr>
 <tr class="memdesc:a1d39feefcfed8ad0d711a2b84ef9d967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a template variable.  <a href="#a1d39feefcfed8ad0d711a2b84ef9d967">More...</a><br/></td></tr>
 <tr class="separator:a1d39feefcfed8ad0d711a2b84ef9d967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4c543288d8e310e41d2a58e1f42544c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#ae4c543288d8e310e41d2a58e1f42544c">balde_response_set_cookie</a> (<a class="el" href="structbalde__response__t.html">balde_response_t</a> *response, const gchar *name, const gchar *value, const gint max_age, const gint expires, const gchar *path, const gchar *domain, gboolean secure)</td></tr>
+<tr class="memdesc:ae4c543288d8e310e41d2a58e1f42544c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a cookie.  <a href="#ae4c543288d8e310e41d2a58e1f42544c">More...</a><br/></td></tr>
+<tr class="separator:ae4c543288d8e310e41d2a58e1f42544c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2d32b038d4f196376fc942e2fce900e"><td class="memItemLeft" align="right" valign="top">const gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#ae2d32b038d4f196376fc942e2fce900e">balde_request_get_header</a> (<a class="el" href="structbalde__request__t.html">balde_request_t</a> *request, const gchar *name)</td></tr>
 <tr class="memdesc:ae2d32b038d4f196376fc942e2fce900e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a request header.  <a href="#ae2d32b038d4f196376fc942e2fce900e">More...</a><br/></td></tr>
 <tr class="separator:ae2d32b038d4f196376fc942e2fce900e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,6 +159,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a751237022c60a7243228f381dff51619"><td class="memItemLeft" align="right" valign="top">const gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#a751237022c60a7243228f381dff51619">balde_request_get_view_arg</a> (<a class="el" href="structbalde__request__t.html">balde_request_t</a> *request, const gchar *name)</td></tr>
 <tr class="memdesc:a751237022c60a7243228f381dff51619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a view argument.  <a href="#a751237022c60a7243228f381dff51619">More...</a><br/></td></tr>
 <tr class="separator:a751237022c60a7243228f381dff51619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a234bc2badf6980c68b144e9a0bdc41ff"><td class="memItemLeft" align="right" valign="top">const gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wrappers_8h.html#a234bc2badf6980c68b144e9a0bdc41ff">balde_request_get_cookie</a> (<a class="el" href="structbalde__request__t.html">balde_request_t</a> *request, const gchar *name)</td></tr>
+<tr class="memdesc:a234bc2badf6980c68b144e9a0bdc41ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a cookie.  <a href="#a234bc2badf6980c68b144e9a0bdc41ff">More...</a><br/></td></tr>
+<tr class="separator:a234bc2badf6980c68b144e9a0bdc41ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Request/Response context related definitions. </p>
@@ -204,6 +210,35 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets a query string argument. </p>
+<p>The argument name <em>IS</em> case-sensitive. </p>
+
+</div>
+</div>
+<a class="anchor" id="a234bc2badf6980c68b144e9a0bdc41ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const gchar* balde_request_get_cookie </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structbalde__request__t.html">balde_request_t</a> *&#160;</td>
+          <td class="paramname"><em>request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gchar *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a cookie. </p>
 <p>The argument name <em>IS</em> case-sensitive. </p>
 
 </div>
@@ -352,6 +387,72 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae4c543288d8e310e41d2a58e1f42544c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void balde_response_set_cookie </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structbalde__response__t.html">balde_response_t</a> *&#160;</td>
+          <td class="paramname"><em>response</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gchar *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gchar *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gint&#160;</td>
+          <td class="paramname"><em>max_age</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gint&#160;</td>
+          <td class="paramname"><em>expires</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gchar *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gchar *&#160;</td>
+          <td class="paramname"><em>domain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gboolean&#160;</td>
+          <td class="paramname"><em>secure</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets a cookie. </p>
+<p>Integer arguments should be set to -1 to be ignored. String arguments (excluding name and value) should be set to NULL to be ignored.</p>
+<p>The 'expires' argument isn't implemented yet. </p>
+
+</div>
+</div>
 <a class="anchor" id="ad5fb729beaaea090ca9fd7e6e35c188c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -427,8 +528,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_0376fae09af503611eb3e1812ba4fe9e.html">include</a></li><li class="navelem"><a class="el" href="dir_43a87a830600933ce265335a341bd7b8.html">balde</a></li><li class="navelem"><a class="el" href="wrappers_8h.html">wrappers.h</a></li>
-    <li class="footer">Generated on Mon Feb 3 2014 00:32:07 for balde by
+    <li class="navelem"><a class="el" href="dir_6542971f2bd57e7c77232c740a1402b3.html">src</a></li><li class="navelem"><a class="el" href="dir_075d99a94c4020d0d1d7b5b27abfc10d.html">include</a></li><li class="navelem"><a class="el" href="dir_1645d025ee9f42658f3c8ce35752a258.html">balde</a></li><li class="navelem"><a class="el" href="wrappers_8h.html">wrappers.h</a></li>
+    <li class="footer">Generated on Sun Mar 9 2014 00:39:32 for balde by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

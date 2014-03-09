@@ -11,7 +11,7 @@ var wrappers_8h =
     [ "balde_response_append_body", "wrappers_8h.html#aa44e124270e47417dd66fe21fe8f52d0", null ],
     [ "balde_response_delete_cookie", "wrappers_8h.html#acf42a5c81117a0a5e666bcea0ffb6664", null ],
     [ "balde_response_get_tmpl_var", "wrappers_8h.html#a1d39feefcfed8ad0d711a2b84ef9d967", null ],
-    [ "balde_response_set_cookie", "wrappers_8h.html#a4c2d1140a7b1f608ac6fde9210cba420", null ],
+    [ "balde_response_set_cookie", "wrappers_8h.html#a95c754bf4bbf56f16a7df19556138b8e", null ],
     [ "balde_response_set_header", "wrappers_8h.html#ad5fb729beaaea090ca9fd7e6e35c188c", null ],
     [ "balde_response_set_tmpl_var", "wrappers_8h.html#aa5c197fcdbf5652ea4d459bb7506f300", null ]
 ];
